@@ -1,0 +1,26 @@
+{
+  "name": "tc39-try-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite-node src/index.ts",
+    "build": "tsdown --from-vite",
+    "lint": "eslint --cache .",
+    "typecheck": "tsmc --noEmit",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "try": "^1.0.0-beta.9"
+  },
+  "devDependencies": {
+    "@sxzz/eslint-config": "^7.1.0",
+    "@ts-macro/tsc": "^0.3.0",
+    "eslint": "^9.31.0",
+    "prettier": "^3.6.2",
+    "tc39-try": "^0.2.1",
+    "tsdown": "^0.13.0",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.6",
+    "vite-node": "^3.2.4"
+  }
+}
