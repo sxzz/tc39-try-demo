@@ -25,8 +25,8 @@ importers:
         specifier: ^3.6.2
         version: 3.6.2
       tc39-try:
-        specifier: ^0.2.1
-        version: 0.2.1(eslint@9.32.0(jiti@2.5.1))(prettier@3.6.2)(typescript@5.8.3)
+        specifier: ^0.3.1
+        version: 0.3.1(eslint@9.32.0(jiti@2.5.1))(prettier@3.6.2)(typescript@5.8.3)
       tsdown:
         specifier: ^0.13.0
         version: 0.13.0(typescript@5.8.3)
@@ -1758,8 +1758,8 @@ packages:
     resolution: {integrity: sha512-Re10+NauLTMCudc7T5WLFLAwDhQ0JWdrMK+9B2M8zR5hRExKmsRDCBA7/aV/pNJFltmBFO5BAMlQFi/vq3nKOg==}
     engines: {node: '>=6'}
 
-  tc39-try@0.2.1:
-    resolution: {integrity: sha512-9xLvwLEMQzxtSGjLVW9xZLT7Ja9a9tc2h0MZZpiMm2SyoVfHs7ZhBZ2yd6dtoD8OPcoxE0TWBkgCVWqHv4cuDw==}
+  tc39-try@0.3.1:
+    resolution: {integrity: sha512-7BbPS3LYCLtvxrLOh653oJOYUDAUOawZbuwkC11O+nraWtnHZB/NBUoEp/ihTAzx6/k3EtiMecXUuVtMzwW/QQ==}
     engines: {node: '>=20.19.0'}
     peerDependencies:
       eslint: ^9.31.0
@@ -3803,7 +3803,7 @@ snapshots:
 
   tapable@2.2.2: {}
 
-  tc39-try@0.2.1(eslint@9.32.0(jiti@2.5.1))(prettier@3.6.2)(typescript@5.8.3):
+  tc39-try@0.3.1(eslint@9.32.0(jiti@2.5.1))(prettier@3.6.2)(typescript@5.8.3):
     dependencies:
       '@babel/parser': 7.28.0
       '@typescript-eslint/parser': 8.38.0(eslint@9.32.0(jiti@2.5.1))(typescript@5.8.3)

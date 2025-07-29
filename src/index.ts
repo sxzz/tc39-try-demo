@@ -7,4 +7,5 @@ function ok() {
 }
 
 console.info(try ok())
+console.info((try ok()).ok)
 console.info(try err())
