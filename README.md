@@ -46,7 +46,7 @@ This demo project showcases full toolchain integration for the try operator:
 
    Install the [TS Macro extension](https://marketplace.visualstudio.com/items?itemName=zhiyuanzmj.vscode-ts-macro) for proper syntax highlighting and IntelliSense support of the try operator:
 
-   ```
+   ```bash
    ext install zhiyuanzmj.vscode-ts-macro
    ```
 
